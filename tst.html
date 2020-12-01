@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignement</title>
+<style> 
+/* logo */
+#logo {
+  border: 2px solid rgb(38, 41, 40);
+  padding: 10px;
+  float:right;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+/* end of logo */
+
+body{
+    background-color:rgb(38, 41, 40);
+}
+
+/* nav */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #fd00009d;
+  color: white;
+}
+/* end of nav */
+
+/* side nav */
+
+nav {
+margin: 0;
+padding: 0;
+width: 199px;
+background-color: #444444;
+position: fixed;
+height: 40%;
+overflow: auto;
+}
+nav a {
+display: block;
+color: rgb(255, 255, 255);
+font-weight: bolder;
+font-size: 17px;
+padding: 16px;
+text-decoration: none;
+}
+nav a.selected {
+background-color: rgb(189, 15, 15);
+color: rgb(255, 255, 255);
+}
+nav a:hover:not(.selected) {
+background-color: white;
+color: #353535;
+}
+div.content {
+margin-left: 200px;
+padding: 1px 16px;
+height: 10px;
+}
+@media screen and (max-width: 700px) {
+nav {
+width: 100%;
+height: 10px;
+position: relative;
+}
+nav a {float: left;}
+div.content {margin-left: 0;}
+}
+
+/* end of side nave */
+
+/* right nav */
+
+
+
+/* end of right nav */
+
+/* content part */
+
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #fc0000;
+  padding: 10px;
+  background-color:darkgray;
+}
+
+
+/* end of content part */
+</style>
+</head>
+<body>
+
+<!-- logo -->
+<div id="logo">
+  <img src="manga_icon_by_jbertrius-d6a22k7.png" alt="there is a logo here" style="width:90px;height:60px;">
+</div>
+<!-- end of logo -->
+<br>
+<br><br><br>
+
+<!-- nave -->
+<div class="topnav">
+    <a class="active" href="#">Home</a>
+    <a href="#">News</a>
+    <a href="#">Contact</a>
+    <a href="#">About</a>
+  </div>
+<!-- end of nave -->
+<br> <br><br>
+<br> 
+<!-- Side navigation -->
+
+<nav class="sideBar">
+  <a class="selected" href="#">List of Technologies</a>
+  <a href="#">PHP</a>
+  <a href="#">Java</a>
+  <a href="#">Ruby</a>
+  <a href="#">Go</a>
+  <a href="#">Python</a>
+  </nav>
+  <div class="content"> 
+
+<!--end of Side navigation -->
+
+<!-- ryt nav -->
+
+<!-- end of ryt nav -->
+
+<!-- Content part -->
+
+<div class="center">
+  <p>Asta et Yuno ont tous les deux été abandonnés à la même église, depuis, ils sont inséparables. Étant enfants, ils se sont promis de devenir le prochain Roi Sorcier. Cependant en grandissant, 
+    un grand fossé s’est creusé entre eux. Alors que Yuno est un magicien de génie, Asta semble ne pas pouvoir utiliser la magie, il décide donc de compenser cette lacune en s’entraînant physiquement, se promettant de ne rien lâcher et de devenir Roi Sorcier
+    Quand l’heure de recevoir leurs grimoires vient enfin (à 15 ans), Yuno reçoit un grimoire avec un trèfle à quatre feuilles (la plupart en reçoivent un avec un trèfle à 3 feuilles), tandis que Asta n’en reçoit aucun.
+    Toutefois, lorsque Yuno se retrouve menacé, le vrai pouvoir d’Asta se réveille et celui-ci reçoit un grimoire avec un trèfle à 5 feuilles.
+    Yuno et Asta vont commencer à prendre des chemins différents, cependant leur but reste le même : devenir le prochain Roi Sorcier !</p>
+</div>
+
+<!-- End of content part -->
+</body>
+</html>
